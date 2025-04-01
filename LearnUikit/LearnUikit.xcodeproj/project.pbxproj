@@ -15,30 +15,16 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-				Sources/Shared/UINavigationController.swift,
-				Sources/Shared/UIViewController.swift,
 			);
 			target = 650484332D9B6F49003969D9 /* LearnUikit */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		6504844E2D9B7104003969D9 /* Exceptions for "LearnUikit" folder in "Copy Bundle Resources" phase from "LearnUikit" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 650484322D9B6F49003969D9 /* Resources */;
-			membershipExceptions = (
-				Sources/Shared/UINavigationController.swift,
-				Sources/Shared/UIViewController.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		650484362D9B6F49003969D9 /* LearnUikit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				650484462D9B6F4A003969D9 /* Exceptions for "LearnUikit" folder in "LearnUikit" target */,
-				6504844E2D9B7104003969D9 /* Exceptions for "LearnUikit" folder in "Copy Bundle Resources" phase from "LearnUikit" target */,
 			);
 			path = LearnUikit;
 			sourceTree = "<group>";

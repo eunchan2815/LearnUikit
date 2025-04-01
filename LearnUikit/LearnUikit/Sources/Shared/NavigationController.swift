@@ -1,5 +1,5 @@
 //
-//  UINavigationController.swift
+//  NavigationController.swift
 //  LearnUikit
 //
 //  Created by dgsw30 on 4/1/25.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UINavigationController: UIGestureRecognizerDelegate {
+extension UINavigationController: @retroactive UIGestureRecognizerDelegate {
     
     override open func viewDidLoad() {
         super.viewDidLoad()
