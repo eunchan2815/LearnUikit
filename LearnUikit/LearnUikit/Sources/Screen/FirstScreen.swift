@@ -16,7 +16,7 @@ class FirstScreen: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         setupButton()
         view.backgroundColor = .systemBackground
-        title = "firstScreen"
+        title = "FirstApp"
         navigationController?.navigationBar.prefersLargeTitles = true
         //MARK: largeTitle 적용
         
